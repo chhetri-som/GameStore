@@ -16,7 +16,7 @@ class GamesClient {
 
         const transformedData = data.map((game: GameSummary) => {
             const date = new Date(game.releaseDate);
-            const formattedDate = `${String(data.getUTCMonth() + 1).padStart(2, '0')}/${String(date.getUTCDate()).padStart(2, '0')}/${date.getUTCFullYear()}`;
+            const formattedDate = `${String(date.getUTCMonth() + 1).padStart(2, '0')}/${String(date.getUTCDate()).padStart(2, '0')}/${date.getUTCFullYear()}`;
             return {
                 ...game,
                 releaseDate: formattedDate,

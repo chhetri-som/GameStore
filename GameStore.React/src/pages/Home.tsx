@@ -140,7 +140,7 @@ const Home: React.FC = () => {
                         <tr key={game.id}>
                             <td>{game.name}</td>
                             <td>{game.genre}</td>
-                            <td className="text-end">${game.price}</td>
+                            <td className="text-end">₹{game.price}</td>
                             <td>{game.releaseDate}</td>
                             <td>
                                 <div className="d-flex">

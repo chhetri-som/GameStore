@@ -149,7 +149,7 @@ const EditGame: React.FC = () => {
                                 className="form-control"
                                 required
                                 min="1"
-                                max="100"
+                                max="10000"
                                 step="0.01"
                             />
                         </div>

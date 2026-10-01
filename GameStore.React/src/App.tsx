@@ -5,11 +5,11 @@ function App() {
   return (
       <div>
         <NavMenu />
-        <div className="container">
-          <Outlet />
-        </div>
+          <div className="container">
+            <Outlet />
+          </div>
       </div>
-  )
+  );
 }
 
 export default App;
